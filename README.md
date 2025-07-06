@@ -21,11 +21,5 @@
  ###
  
  ![](https://github-readme-stats.vercel.app/api?username=milirezai&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false)<div align="center">
-  ![](https://nirzak-streak-stats.vercel.app/?user=milirezai&theme=vision-friendly-dark&hide_border=false)<div align="center">
+  ![](https://nirzak-streak-stats.vercel.app/?user=milirezai&theme=vision-friendly-dark&hide_border=false) 
   <!-- ![](https://github-readme-stats.vercel.app/api/top-langs/?username=milirezai&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<div align="center"> -->
-
-
-
- 
----
-[![](https://visitcount.itsvg.in/api?id=milirezai&icon=0&color=0)](https://visitcount.itsvg.in)
