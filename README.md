@@ -1,7 +1,6 @@
  <h1 align="center">Hey 👋What's Up?</h1>
 
-###
-
+ 
 
   <h2 align="center">💫 About Me</h2>
 
@@ -10,8 +9,7 @@
    I'm  Junior PHP Developer ,<br>Interested in learning  ,<br>Looking for a challenge.
   </h2>
 
-###
-
+ 
 <div align="center">
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
@@ -26,8 +24,14 @@
 
 <div align="center">
 ![](https://github-readme-stats.vercel.app/api?username=milirezai&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+</div>
+<div align="center">
 ![](https://nirzak-streak-stats.vercel.app/?user=milirezai&theme=vision-friendly-dark&hide_border=false)<br/>
+</div>
+<div align="center">
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=milirezai&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+</div>
+<div align="center">
 
 ---
 [![](https://visitcount.itsvg.in/api?id=milirezai&icon=0&color=0)](https://visitcount.itsvg.in)
@@ -40,4 +44,4 @@
 
  
 
- I'm  Junior PHP Developer ,<br>Interested in learning  ,<br>Looking for a challenge.
+ 
