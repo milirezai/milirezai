@@ -1,4 +1,5 @@
- <h1 align="center">Hello 👋 How are you? Welcome to my page</h1>
+ <h1 align="center">Hello 👋 How are you? </h1>
+ <h2 align="center">Welcome to my page</h2>
   <h2 align="center">I am milad rezai, laravel and php developer.</h2>
   <h2 align="center">
     Junior  Developer <br>Interested in learning  <br>Looking for a challenge
