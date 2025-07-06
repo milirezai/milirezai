@@ -1,7 +1,7 @@
  <h1 align="center">Hey 👋What's Up?</h1>
   <h2 align="center">I am milad rezai, laravel and php developer.</h2>
   <h2 align="center">
-   I'm  Junior PHP Developer ,<br>Interested in learning  ,<br>Looking for a challenge.
+    Junior PHP Developer ,<br>Interested in learning  ,<br>Looking for a challenge.
   </h2>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="52" height="40" alt="gmail logo" />
