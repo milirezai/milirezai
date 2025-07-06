@@ -14,7 +14,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="52" height="40" alt="gmail logo"/>
   <img/>
-   <img src="https://www.php.net//images/logos/new-php-logo.svg" width="50" height="50" alt="gmail logo"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50" alt="gmail logo"/>
  </div>
 
  ###
