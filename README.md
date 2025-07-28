@@ -44,7 +44,7 @@ class milirezai
     {
         self::$versionControlSystems = $versionControlSystems;
     }
-    
+
     public static function get()
     {
         return
@@ -57,7 +57,7 @@ class milirezai
                     "role" => self::$role,
                     "currentFocus" => self::$currentFocus,
                 ],
-                "languages" => self::$languages,
+              "languages" => self::$languages,
              "technologies" =>
                [
                    "backend" => self::$backEnd,
