@@ -57,7 +57,7 @@ class milirezai
                     "role" => self::$role,
                     "currentFocus" => self::$currentFocus,
                 ],
-              "languages" => self::$languages,
+             "languages" => self::$languages,
              "technologies" =>
                [
                    "backend" => self::$backEnd,
