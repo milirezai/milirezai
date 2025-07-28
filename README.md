@@ -69,26 +69,16 @@ class milirezai
 }
 
 $personalInformation=milirezai::setPersonalInformation("milad", "rezai", "junyore php developer", "php developer", "lerning");
+
 $backend=milirezai::backEnd(["php"],["php" => "75%"],["laravel","damavand"],["mvc"]);
+
 $frontEnd=milirezai::frontEnd(["html","css","js"],["html" => "70%","css" => "60%","js" => "45%"],[],[]);
+
 $database=milirezai::database(["mysql"],["sql"],["sql" => "60%"],["Relational"]);
+
 $versionControlSystems=milirezai::versionControlSystems(["git"]);
+
 $get=milirezai::get();
+
 print_r($get);
 ```
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="52" height="40" alt="gmail logo" />
-  <img/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="52" height="40" alt="gmail logo"/>
-  <img/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="52" height="40" alt="gmail logo"/>
-  <img />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="52" height="40" alt="gmail logo"/>
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="52" height="40" alt="gmail logo"/>
-  <img/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" width="52" height="40" alt="gmail logo" />
-  <img/>
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50" alt="gmail logo"/>
- </div>
- <div align="center">
