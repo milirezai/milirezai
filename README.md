@@ -23,22 +23,22 @@ class milirezai
         self::$currentFocus = $currentFocus;
     }
 
-    public static function backEnd(array $languages, array $levelOfExpertise, array $frameworks, array $architecture)
+    public static function setBackEnd(array $languages, array $levelOfExpertise, array $frameworks, array $architecture)
     {
         self::$languages['backEnd'] = $languages;
         self::$backEnd= ["languages" => $languages,"levelOfExpertise" => $levelOfExpertise, "frameworks" =>$frameworks , "architecture" => $architecture];
     }
-    public static function frontEnd(array $languages, array $levelOfExpertise, array $frameworks, array $architecture)
+    public static function setFrontEnd(array $languages, array $levelOfExpertise, array $frameworks, array $architecture)
     {
         self::$languages['frontEnd'] = $languages;
         self::$frontEnd= ["languages" => $languages,"levelOfExpertise" => $levelOfExpertise, "frameworks" =>$frameworks , "architecture" => $architecture];
     }
-    public static function database($database, $languages, $levelOfExpertise, array $architecture)
+    public static function setDatabase($database, $languages, $levelOfExpertise, array $architecture)
     {
         self::$languages['database'] = $languages;
         self::$database= ["database" => $database ,"languages" => $languages,"levelOfExpertise" => $levelOfExpertise,"architecture" => $architecture];
     }
-    public static function versionControlSystems(array $versionControlSystems)
+    public static function setVersionControlSystems(array $versionControlSystems)
     {
         self::$versionControlSystems = $versionControlSystems;
     }
@@ -68,15 +68,16 @@ class milirezai
 
 }
 
-$personalInformation=milirezai::setPersonalInformation("milad", "rezai", "junyore php developer", "php developer", "lerning");
+milirezai::setPersonalInformation("milad", "rezai", "Young and enthusiastic programmer, interested in building and learning.", "php developer
+", "Master server-side technologies.");
 
-$backend=milirezai::backEnd(["php"],["php" => "75%"],["laravel","damavand"],["mvc"]);
+milirezai::setBackEnd(["php"],["php" => "75%"],["laravel","damavand"],["mvc"]);
 
-$frontEnd=milirezai::frontEnd(["html","css","js"],["html" => "70%","css" => "60%","js" => "45%"],[],[]);
+milirezai::setFrontEnd(["html","css","js"],["html" => "70%","css" => "60%","js" => "45%"],[],[]);
 
-$database=milirezai::database(["mysql"],["sql"],["sql" => "60%"],["Relational"]);
+milirezai::setDatabase(["mysql"],["sql"],["sql" => "70%"],["Relational"]);
 
-$versionControlSystems=milirezai::versionControlSystems(["git"]);
+milirezai::setVersionControlSystems(["git"]);
 
 $get=milirezai::get();
 
