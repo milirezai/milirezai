@@ -13,7 +13,6 @@ class milirezai
     private static $database = []; 
     private static $versionControlSystems = [];
 
-
     public static function setPersonalInformation($name, $lastName, $aboutMe, $role, $currentFocus)
     {
         self::$name = $name;
@@ -28,21 +27,24 @@ class milirezai
         self::$languages['backEnd'] = $languages;
         self::$backEnd= ["languages" => $languages,"levelOfExpertise" => $levelOfExpertise, "frameworks" =>$frameworks , "architecture" => $architecture];
     }
+
     public static function setFrontEnd(array $languages, array $levelOfExpertise, array $frameworks, array $architecture)
     {
         self::$languages['frontEnd'] = $languages;
         self::$frontEnd= ["languages" => $languages,"levelOfExpertise" => $levelOfExpertise, "frameworks" =>$frameworks , "architecture" => $architecture];
     }
+
     public static function setDatabase($database, $languages, $levelOfExpertise, array $architecture)
     {
         self::$languages['database'] = $languages;
         self::$database= ["database" => $database ,"languages" => $languages,"levelOfExpertise" => $levelOfExpertise,"architecture" => $architecture];
     }
+
     public static function setVersionControlSystems(array $versionControlSystems)
     {
         self::$versionControlSystems = $versionControlSystems;
     }
-
+    
     public static function get()
     {
         return
