@@ -45,29 +45,6 @@ class milirezai
         self::$versionControlSystems = $versionControlSystems;
     }
 
-    public static function get()
-    {
-        return
-        [
-            "personalInformation" =>
-                [
-                    "name" => self::$name,
-                    "lastName" => self::$lastName,
-                    "aboutMe" => self::$aboutMe,
-                    "role" => self::$role,
-                    "currentFocus" => self::$currentFocus,
-                ],
-             "languages" => self::$languages,
-             "technologies" =>
-               [
-                   "backend" => self::$backEnd,
-                   "frontEnd" => self::$frontEnd,
-                   "database" => self::$database,
-               ],
-            "versionControlSystems" => self::$versionControlSystems,
-        ];
-    }
-
 }
 
 milirezai::setPersonalInformation("milad", "rezai", "Young and enthusiastic programmer, interested in building and learning.", "php developer
@@ -81,7 +58,4 @@ milirezai::setDatabase(["mysql"],["sql"],["sql" => "70%"],["Relational"]);
 
 milirezai::setVersionControlSystems(["git"]);
 
-$get=milirezai::get();
-
-print_r($get);
 ```
