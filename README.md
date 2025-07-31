@@ -57,5 +57,4 @@ milirezai::setFrontEnd(["html","css","js"],["html" => "70%","css" => "60%","js" 
 milirezai::setDatabase(["mysql"],["sql"],["sql" => "70%"],["Relational"]);
 
 milirezai::setVersionControlSystems(["git"]);
-
 ```
