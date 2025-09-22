@@ -8,44 +8,21 @@
         'currentFocus' => 'Master server-side technologies'
     ],
     'backEnd' => [
-        'languages' => [
-            'php'
-        ],
-        'levelOfExpertise' => [
-            'php' => '75%'
-        ],
-        'frameworks' => [
-            'laravel'
-        ],
-        'architecture' => [
-            'mvc'
-        ]
+        'languages' => ['php'],
+        'levelOfExpertise' => ['php' => '75%'],
+        'frameworks' => ['laravel'],
+        'architecture' => ['mvc']
     ],
     'frontEnd' => [
-        'languages' => [
-            'html','css'
-        ],
-        'levelOfExpertise' => [
-            "html" => "70%",
-            "css" => "60%"
-        ],
+        'languages' => ['html','css'],
+        'levelOfExpertise' => ["html" => "70%","css" => "60%"],
     ],
     'database' => [
-        'database' => [
-            'Mysql'
-        ],
-        'languages' => [
-            'sql'
-        ],
-        'levelOfExpertise' => [
-            "sql" => "70%"
-        ],
-        'architecture' => [
-            'Relational'
-        ]
+        'database' => ['Mysql'],
+        'languages' => ['sql'],
+        'levelOfExpertise' => ["sql" => "70%"],
+        'architecture' => ['Relational']
     ],
-    'versionControlSystems' => [
-        'git'
-    ]
+    'versionControlSystems' => ['git']
 ];
 ```
