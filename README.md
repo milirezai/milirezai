@@ -15,7 +15,7 @@
     ],
     'frontEnd' => [
         'languages' => ['html','css'],
-        'levelOfExpertise' => ["html" => "70%","css" => "60%"],
+        'levelOfExpertise' => ["html" => "70%","css" => "70%"],
     ],
     'database' => [
         'database' => ['Mysql'],
