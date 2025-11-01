@@ -4,7 +4,7 @@
         'firstName' => 'milad',
         'lastName' => 'rezai',
         'aboutMe' => 'Young and enthusiastic programmer, interested in building and learning',
-        'role' => 'php developer',
+        'role' => 'php developer ',
         'currentFocus' => 'Master server-side technologies'
     ],
     'backEnd' => [
