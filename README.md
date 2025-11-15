@@ -23,6 +23,6 @@
         'levelOfExpertise' => ["sql" => "70%"],
         'architecture' => ['Relational']
     ],
-    'versionControlSystems' => ['git' ]
+    'versionControlSystems' => ['git']
 ];
 ```
